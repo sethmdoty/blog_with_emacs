@@ -1,0 +1,36 @@
+#+TITLE: My personal setup
+
+* General setup
+
+Most of my personal computing is done on either a Macbook running the latest MacOS or a [[https://www.lenovo.com/us/en/yoga/c-series/yoga-c940-14][Lenovo Yoga c-940]].
+
+- [[https://nixos.org/][NixOS]] operating system/distro
+- My Nix install runs https://i3wm.org/ as a esktop environment
+- My Mac [[https://github.com/sethmdoty/nix_dotfiles][dotfiles]] are managed with Nix. 
+- I'm a big fan of [[https://www.nitrokey.com/][NitroKeys]] for 2FA
+- [[https://www.mozilla.org/exp/firefox/new][Firefox]] as Web browser, with some extensions
+  - [[https://addons.mozilla.org/firefox/addon/multi-account-containers][Multi-Account Containers]] to isolate websites
+  - [[https://addons.mozilla.org/firefox/addon/ublock-origin][uBlock Origin]] (Ad blocker)
+- [[https://nextcloud.com][NextCloud]] to host shared files
+- [[https://nextcloud.com/clients][NextCloud clients]] to sync files with NextCloud on desktop and mobile
+- [[https://orgmode.org][Org-mode]] ("Your life in text mode") on top of [[https://www.gnu.org/software/emacs][Emacs]] to organize notes, journals and information. It also powers this website.
+
+I also have a Home "Lab"
+  - Multiple Odroid H2 systems
+  - Juniper EX2200 Switch
+  - [[https://www.home-assistant.io/][HomeAssistant]]
+  - [[https://www.influxdata.com/][InfluxDB]] and all systems utilizing a full TICK stack
+
+* Work
+
+Most of my work happens on a Macbook Pro
+
+* Development environment
+
+- [[https://www.gnu.org/software/emacs][Emacs]] as editor for most languages, with [[https://raw.githubusercontent.com/dmacvicar/dotfiles/master/emacs/.emacs.d/init.el][many]] extensions. Most provided as part of [[https://github.com/hlissner/doom-emacs][Doom Emacs]] Some highlights:
+  - [[https://melpa.org/#/lsp-mode][LSP mode]] to take advantage of all [[https://en.wikipedia.org/wiki/Language_Server_Protocol][LSP]] servers out there
+  - [[https://magit.vc][Magit]] as a git front-end
+- [[https://sw.kovidgoyal.net/kitty/][Kitty Term]] to manage my consoles and to split the screen in my favourite layouts
+- Nix-shell provided by the [[https://nixos.org/][NixOS]] project
+- Given my Platform Engineering Background, I have to dig in code writen in many languages. My go-to languages I'm in day to day are Python, Terraform, yaml, Dhall, or Nix Language.
+

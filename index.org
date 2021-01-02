@@ -1,0 +1,20 @@
+#+TITLE: Seth Doty.
+
+
+* \faBookmark Latest writings
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: post-list
+  :END:
+
+#+INCLUDE: posts/posts.org
+
+Full list at my [[file:./posts/archive.org][my Blog.]]
+
+-----
+
+* \faCode Projects/Code
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: post-list
+  :END:
+
+- < Ongoing > My MacOS Dotfiles in Nix: [[https://github.com/sethmdoty/nix_dotfiles][Nix Dotfiles]] 
