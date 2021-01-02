@@ -2,7 +2,7 @@
 #+author: Seth Doty
 #+date: <2021-01-01 Fri>
 
-file:[[https://github.com/sethmdoty/sethmdoty.github.io/workflows/Build%20and%20publish%20to%20pages/badge.svg][https://github.com/sethmdoty/sethmdoty.github.io/workflows/Build%20and%20publish%20to%20pages/badge.svg]]
+[[https://github.com/sethmdoty/sethmdoty.github.io/workflows/Build%20and%20publish%20to%20pages/badge.svg][https://github.com/sethmdoty/sethmdoty.github.io/workflows/Build%20and%20publish%20to%20pages/badge.svg]]
 
 * Introduction
 
