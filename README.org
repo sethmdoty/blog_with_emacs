@@ -2,7 +2,7 @@
 #+author: Seth Doty
 #+date: <2021-01-01 Fri>
 
-[[https://github.com/dmacvicar/site.org/actions?query=workflow%3A%22Build+and+publish+to+pages%22][file:https://github.com/sethmdoty/sethmdoty.github.io/workflows/Build%20and%20publish%20to%20pages/badge.svg]]
+file:[[https://github.com/sethmdoty/sethmdoty.github.io/workflows/Build%20and%20publish%20to%20pages/badge.svg][https://github.com/sethmdoty/sethmdoty.github.io/workflows/Build%20and%20publish%20to%20pages/badge.svg]]
 
 * Introduction
 
