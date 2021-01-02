@@ -139,7 +139,7 @@
   "List of elements going in head for all pages.  Takes PLIST as context."
   (let ((description "The blog of Seth Doty"))
     (list
-     (list "link" (list "href" "<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"))
+     (list "link" (list "href" "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" "rel" "stylesheet" "integrity" "sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" "crossorigin" "anonymous"))
      (list "meta" (list "description" description))
      (list "link" (list "rel" "alternate" "type" "application+rss/xml" "title" description "href" "posts/rss.xml")))))
 
