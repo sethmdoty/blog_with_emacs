@@ -137,9 +137,9 @@
 
 (defun my/head-common-list (plist)
   "List of elements going in head for all pages.  Takes PLIST as context."
-  (let ((description "The blog of My Mac-Vicar P."))
+  (let ((description "The blog of Seth Doty"))
     (list
-     (list "link" (list "href" "https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" "rel" "stylesheet" "integrity" "sha256-k2/8zcNbxVIh5mnQ52A0r3a6jAgMGxFJFE2707UxGCk= sha512-ZV9KawG2Legkwp3nAlxLIVFudTauWuBpC10uEafMHYL0Sarrz5A7G79kXh5+5+woxQ5HM559XX2UZjMJ36Wplg==" "crossorigin" "anonymous"))
+     (list "link" (list "href" "<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"))
      (list "meta" (list "description" description))
      (list "link" (list "rel" "alternate" "type" "application+rss/xml" "title" description "href" "posts/rss.xml")))))
 
@@ -249,7 +249,7 @@
          :publishing-directory "./public"
          :publishing-function 'ignore
          ;;:publishing-function 'my/org-rss-publish-to-rss
-         :html-link-home "http://my.codes/"
+         :html-link-home "https://sethdoty.dev/"
          :html-link-use-abs-url t
          :auto-sitemap t
          :sitemap-style 'list
@@ -280,7 +280,7 @@
          :base-extension "org"
          :publishing-directory "./public"
          :publishing-function 'my/org-rss-publish-to-rss
-         :html-link-home "http://my.codes/"
+         :html-link-home "https://sethdoty.dev/"
          :html-link-use-abs-url t)
    (list "site"
          :base-directory "./"
