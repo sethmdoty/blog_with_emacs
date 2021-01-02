@@ -1,4 +1,4 @@
-#+TITLE: Seth Doty.
+#+TITLE: Seth Doty
 
 
 * \faBookmark Latest writings
