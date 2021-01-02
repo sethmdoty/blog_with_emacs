@@ -8,7 +8,7 @@
 
 #+INCLUDE: posts/posts.org
 
-Full list at my [[file:./posts/archive.org][my Blog.]]
+Full list at  [[file:./posts/archive.org][my Blog.]]
 
 -----
 
