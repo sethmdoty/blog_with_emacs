@@ -82,4 +82,4 @@ This part is complicated and easy to forget how it works everytime something bre
 
 The code used for generating the site is licensed under the [[file:LICENSE][MIT]] license.
 
-The content of the site, Copyright (©) 2014-2019 {{{author}}}.
+The content of the site, Copyright (©) 2021 Seth Doty.
