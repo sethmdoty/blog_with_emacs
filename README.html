@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 02 Jan. 2021 -->
+<!-- 03 Jan. 2021 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>My homepage with org-mode</title>
@@ -22,7 +22,7 @@
   </a>
   <h2>I'm <a href="/">Seth Doty</a></h2>
   <div id="bio">
-      <small><p>I am inspired by building Platform Solutions for clients. I do that mostly at <a href="https://objectpartners.com/">Object Partners</a>.
+      <small><p>I build Platform Solutions for clients. I do that mostly at <a href="https://objectpartners.com/">Object Partners</a>.
   </div>
   <div id="social">
     Follow me:
@@ -41,44 +41,43 @@
 <header>
 <h1 class="title">My homepage with org-mode</h1>
 </header>
-<figure id="orgdfd56cf">
+<figure id="org2aa4a67">
 <a href="https://github.com/sethmdoty/sethmdoty.github.io/workflows/Build%20and%20publish%20to%20pages/badge.svg"><object type="image/svg+xml" data="https://github.com/sethmdoty/sethmdoty.github.io/workflows/Build%20and%20publish%20to%20pages/badge.svg" class="org-svg">
 Sorry, your browser does not support SVG.</object></a>
 
 </figure>
 
-<section id="outline-container-orgf8b2ae0" class="outline-2">
-<h2 id="orgf8b2ae0">Introduction</h2>
-<div class="outline-text-2" id="text-orgf8b2ae0">
+<section id="outline-container-orgb01fb2d" class="outline-2">
+<h2 id="orgb01fb2d">Introduction</h2>
+<div class="outline-text-2" id="text-orgb01fb2d">
 <p>
 This setup based on <a href="https://orgmode.org">org-mode</a> and heavily based on ideas from <a href="https://github.com/dmacvicar/site.org">https://github.com/dmacvicar/site.org</a>.
 </p>
 </div>
 </section>
 
-<section id="outline-container-orgaecf4f0" class="outline-2">
-<h2 id="orgaecf4f0">Implementation</h2>
-<div class="outline-text-2" id="text-orgaecf4f0">
+<section id="outline-container-orgc69a4e3" class="outline-2">
+<h2 id="orgc69a4e3">Implementation</h2>
+<div class="outline-text-2" id="text-orgc69a4e3">
 <p>
 For details about the implementation see the [[<a href="https://github.com/sethmdoty/sethmdoty.github.io">https://github.com/sethmdoty/sethmdoty.github.io</a>][<i aria-hidden='true' class='fa fa-github'></i> Source].
 </p>
 </div>
 </section>
 
-<section id="outline-container-org6ae6167" class="outline-2">
-<h2 id="org6ae6167">Usage</h2>
-<div class="outline-text-2" id="text-org6ae6167">
+<section id="outline-container-org9b344b4" class="outline-2">
+<h2 id="org9b344b4">Usage</h2>
+<div class="outline-text-2" id="text-org9b344b4">
 <ul class="org-ul">
 <li>Posts go into <code>posts/</code>
 Preferably in their own subdirectory together with all their assets (self-contained)</li>
-<li>Tutorials go in <code>tutorials/</code>, as they are rendered (for now) with the <a href="https://github.com/fniessen/org-html-themes">readtheorg</a> theme</li>
 </ul>
 
 <p>
 To generate:
 </p>
 
-<pre class="example" id="org1ffaddf">
+<pre class="example" id="org2519e55">
 $ make
 </pre>
 
@@ -87,16 +86,15 @@ The output site will be rendered in <code>public/</code>.
 </p>
 </div>
 
-<div id="outline-container-org18d95f0" class="outline-3">
-<h3 id="org18d95f0">RSS Feeds</h3>
-<div class="outline-text-3" id="text-org18d95f0">
+<div id="outline-container-orgde4ba6d" class="outline-3">
+<h3 id="orgde4ba6d">RSS Feeds</h3>
+<div class="outline-text-3" id="text-orgde4ba6d">
 <p>
 This part is complicated and easy to forget how it works everytime something breaks.
 </p>
 
 <ul class="org-ul">
-<li>Each export block in the project translates the full site, file by file, to another format (taking into account excludes, includes)
-As we have very different settings for the posts than we have for tutorials, we have different entries in the project for translating each subset.</li>
+<li>Each export block in the project translates the full site, file by file, to another format (taking into account excludes, includes)</li>
 
 <li>Sitemaps allow to generate a map of all converted files in a single org file.
 Eg. a sitemap in posts, will generate an org file with a list of links to all posts. This is particularly useful for the rss exporter.</li>
@@ -146,13 +144,13 @@ The <span class="underline">RSS</span> exporter will then use the property for t
 </div>
 </section>
 
-<section id="outline-container-orgc04ef7b" class="outline-2">
-<h2 id="orgc04ef7b">Features</h2>
-<div class="outline-text-2" id="text-orgc04ef7b">
+<section id="outline-container-org8746f18" class="outline-2">
+<h2 id="org8746f18">Features</h2>
+<div class="outline-text-2" id="text-org8746f18">
 </div>
-<div id="outline-container-orgc9edd12" class="outline-3">
-<h3 id="orgc9edd12">Drafts</h3>
-<div class="outline-text-3" id="text-orgc9edd12">
+<div id="outline-container-org997cb7f" class="outline-3">
+<h3 id="org997cb7f">Drafts</h3>
+<div class="outline-text-3" id="text-org997cb7f">
 <p>
 To hide a post from the list of recent posts or the full archive, use:
 </p>
@@ -169,9 +167,9 @@ Note that the post will still be published, but you will need to access it by it
 </div>
 </section>
 
-<section id="outline-container-org6800a4d" class="outline-2">
-<h2 id="org6800a4d">License</h2>
-<div class="outline-text-2" id="text-org6800a4d">
+<section id="outline-container-org0556ef3" class="outline-2">
+<h2 id="org0556ef3">License</h2>
+<div class="outline-text-2" id="text-org0556ef3">
 <p>
 The code used for generating the site is licensed under the <a href="LICENSE">MIT</a> license.
 </p>
@@ -185,7 +183,7 @@ The content of the site, Copyright (©) 2021 Seth Doty.
 <footer id="postamble" class="status">
 <p class='disclaimer'>The postings on this site are my own and don't necessarily represent my employer’s positions, strategies or opinions.</p>
 
-<p>Last updated 02 Jan. 2021. Built with <a href="https://www.gnu.org/software/emacs/">Emacs</a> 26.3 (<a href="https://orgmode.org">Org</a> mode 9.4.4). <a href="/README.html">Details</a>.</p>
+<p>Last updated 03 Jan. 2021. Built with <a href="https://www.gnu.org/software/emacs/">Emacs</a> 26.3 (<a href="https://orgmode.org">Org</a> mode 9.4.4). <a href="/README.html">Details</a>.</p>
 </footer>
 </body>
 </html>

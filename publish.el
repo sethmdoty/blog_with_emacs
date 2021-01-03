@@ -296,14 +296,6 @@
          :html-validation-link nil
          :html-head-include-scripts nil
          :html-head-include-default-style nil)
-   (list "tutorials"
-         :base-directory "./tutorials"
-         :base-extension "org"
-         :recursive t
-         :publishing-directory "./public/tutorials"
-         :publishing-function 'org-html-publish-to-html
-         :section-numbers nil
-         :with-toc t)
    (list "assets"
          :base-directory "./"
          :exclude (regexp-opt '("assets" "public"))
