@@ -16,7 +16,6 @@ For details about the implementation see the [[https://github.com/sethmdoty/seth
 
 - Posts go into =posts/=
   Preferably in their own subdirectory together with all their assets (self-contained)
-- Tutorials go in =tutorials/=, as they are rendered (for now) with the [[https://github.com/fniessen/org-html-themes][readtheorg]] theme
 
 To generate:
 
@@ -31,7 +30,6 @@ The output site will be rendered in =public/=.
 This part is complicated and easy to forget how it works everytime something breaks.
 
 - Each export block in the project translates the full site, file by file, to another format (taking into account excludes, includes)
-  As we have very different settings for the posts than we have for tutorials, we have different entries in the project for translating each subset.
 
 - Sitemaps allow to generate a map of all converted files in a single org file.
   Eg. a sitemap in posts, will generate an org file with a list of links to all posts. This is particularly useful for the rss exporter.
