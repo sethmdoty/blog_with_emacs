@@ -10,7 +10,7 @@ This setup based on [[https://orgmode.org][org-mode]] and heavily based on ideas
 
 * Implementation
 
-For details about the implementation see the [[https://github.com/sethmdoty/sethmdoty.github.io][\faGithub Source]].
+For details about the implementation see the [[https://github.com/sethmdoty/sethmdoty.github.io][Github Source]].
 
 * Usage
 
